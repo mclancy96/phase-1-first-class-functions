@@ -9,3 +9,7 @@ const namedFunction = () => {
 const returnsANamedFunction = () => {
     return namedFunction;
 }
+
+const returnsAnAnonymousFunction = () => {
+    return () => console.log("I'm an anonymous function!")
+}
